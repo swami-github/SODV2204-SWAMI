@@ -1,0 +1,12 @@
+h2{
+    color: red;
+    border: royalblue;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+}
+
+li{
+    list-style-type: square;
+}
