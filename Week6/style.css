@@ -1,0 +1,44 @@
+html {
+    background: lightcyan;
+}
+h1 {
+    text-align: center;
+    text-underline-position: below;
+    color: rgb(128, 46, 9);
+}
+h3{
+    background: chartreuse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: 2px;
+}
+h4 {
+    background: cornflowerblue;
+}
+.phone{
+    text-align: center;
+}
+img {
+    border-color: darkgreen;
+    margin: 20px; color: darkgreen;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+tr {
+    margin: 10px;
+    border-color: magenta;
+    border-width: 20px;
+    background: lime
+
+}
+caption {
+    background: chartreuse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+p{
+    /*these is single line comment*/
+    text-align: left;
+}
