@@ -1,0 +1,49 @@
+
+html {
+    box-sizing: border-box;
+}
+.grid-container {
+   display: grid;
+   grid-gap: 20px;
+   border: orangered;
+   grid-template-areas: 
+   "h1"
+   "menu"
+   "image1"
+   "image2"
+   "verse1"
+   "aboutsong";
+}
+.item1 {
+    grid-area: h1;
+}
+.item2 {
+    grid-area: menu;
+}
+.item3 {
+    grid-area: image1;
+}
+.item4 {
+    grid-area: image2;
+}
+.item5 {
+    grid-area: verse1;
+}
+.item6 {
+    grid-area: aboutsong;
+}
+.item7 {
+    grid-area: chorus1;
+}
+.item8 {
+    grid-area: fullsong;
+}
+.iteam9 {
+    grid-area: verse2;
+}
+.item10 {
+    grid-area: chorus2;
+}
+.item11 {
+    grid-area: video;
+}
