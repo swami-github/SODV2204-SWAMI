@@ -1,5 +1,5 @@
 .footer{
-
+    background-color: darkblue;
 }
 .verse {
     background-color: lawngreen;
@@ -9,33 +9,32 @@
     background-color: lightgreen;
     display: flex;
     text-align: center;
-    grid-column: 1;
 }
 /*class bottomtwo is the grid and also parent div for class aboutsong & verse divs*/
 .bottomtwo-grid-container{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
+    margin: auto;
 }
 
 .text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     background-color: maroon;
-    text-align: center;
+    text-align: left;
+    padding: 100px;
 }
-.image {
-    display: flex;
-    border-radius: 4px;
-    padding: 2px;
-    width: 150px; */
-    /*max-width: 500px;
-    padding: 10px 30px 35px 10px;
-    width: 300px;
-    height: 400px;
-    box-sizing: border-box;*/
+img{
+    width: 30%;
+    height: 40%;
 }
 /*class twocolum is the grid and also parent div for class image & text divs*/
 .twocolum-grid-container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
+    border: 10px solid #73AD21;
+    /*max-width: 400%;
+    margin: auto;*/
 }
 .main_image{
     background-image: url("images/talking_heads-speaking_in_tongues.png");
@@ -53,34 +52,36 @@
     width:80%;
 }
 nav ul{
-    white-space: nowrap;
-    max-width: 900px;
+    list-style: none;
 }
-
 nav li{
-    width: 15%;
     display: inline-block;
     text-align: center;
     justify-content: center;
 }
-
+/*
 nav li a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    color: white;
-}
-
-.menu{
-    background-color: rgb(78, 78,78);
-    height: 50px;
+    color: ;
+    text-decoration: none;
     text-align: center;
-    
 }
-.header {
+*/
+nav{
+    background-color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    /*background-color: rgb(78, 78,78);
+    height: 40px;
+    display: inline-block;*/
+}
+.main_heading {
     background-color: yellow;
+    text-transform: uppercase;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
- html{
-        box-sizing: border-box;
-    }
