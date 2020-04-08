@@ -1,0 +1,214 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    background-color: rgba(0,0,0,.90);
+    max-width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+nav li{
+    padding: 18px;
+    font-size: 1.2em;
+    display: inline-block;
+    padding-left: 10px;
+}
+nav li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header{
+    background-image: url(/img/DSC_0385.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header section{
+    background: rgba(0,0,0,.40);
+    height: 400px;
+}
+header section h1{
+width: 34%;
+border: 2px solid rgb(255, 217, 0);
+display: flex;
+justify-content: right;
+margin-top: 1%;
+margin-left: 5%;
+color: rgb(255, 217, 0);
+text-transform: uppercase;
+font-size: 3.5em;
+padding: 3px;
+padding-left: 17px;
+}
+header section h3{
+    display: flex;
+    margin-top: -.5%;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 5%;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: gold;
+}
+img{
+   max-width:130px;
+   margin-right: 70px;
+}
+.section1{
+    font-size: 1em;
+    color: black;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 65%;
+    text-align: center;
+    grid-template-rows: 1;
+    justify-content: right;
+    margin-right: 5%;
+    margin-left: 7%;
+    background-color: none;
+    font-size: 1em;
+    background-image: url(/img/Green\ Salad.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 270px;
+    background-size: 400px;
+    background-color: none;
+}
+span :hover{
+    color: gold;
+}
+.section1 span{
+    margin-bottom: auto;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: auto;
+    border: 2px solid gold;
+    padding: 7px;
+    text-align: center;
+    margin-right: 40%;
+    background: grey;
+    margin-left: 40%;
+}
+.section2 a:hover{
+    color: gold;
+    background-color: gray;
+}
+.section2{
+    font-size: 1em;
+    color: black;
+}
+.section3{
+    background-image: url(/img/Caviar\ Martini\ Champagne\ Rose.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 450px;
+}
+.section3 h2{
+text-transform: uppercase;
+font-size: 3em;
+color: white;
+display: flex;
+justify-content: center;
+border-bottom: 2px solid snow;
+}
+.section3 h3{
+    display: flex;
+    color: white;
+    border: 2px solid white;
+    width: 32%;
+    margin-top: 7%;
+    margin-left: 2%;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    justify-content: left;
+    font-weight: bold;
+}
+.section4 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gold;
+    padding: 15px;
+}
+.section4 li{
+display: inline-block;
+font-size: 1em;
+font-weight: bold;
+}
+.red{
+    color: darkgoldenrod;
+}
+.section4{
+display: flex;
+font-size: 1em;
+flex-direction: column;
+align-items: center;
+}
+aside .secf{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-right: 30%;
+margin-left: 30%;
+background-color: gray;
+color: white;
+font-size: 1em;
+}
+aside .secf1{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    background-color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+}
+.color{
+    background-color: gold;
+    font-size: 1.5em;
+    color: gray;
+    margin: 0;
+}
+.navfooter{
+    margin-top: 2%;
+    display: flex;
+    max-width: 100%;
+    background-color:rgb(64,64,64) ;
+    justify-content: center;
+    border-bottom: 1px solid gold;
+}
+footer span{
+display: flex;
+max-width: 100%;
+background-color: rgb(32,32,32) ;
+color: white;
+text-transform: uppercase;
+justify-content: center;
+padding: 2%;
+font-size: 1em;
+}
+.secf1 h3{
+    background-color: gold;
+    color: gray;
+    max-width: 100%;
+    margin: 0;
+    font-size: 1.7em;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.secf1 p{
+    font-weight: 1em;
+    color: honeydew;
+}

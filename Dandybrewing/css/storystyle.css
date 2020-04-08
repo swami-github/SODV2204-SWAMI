@@ -1,0 +1,99 @@
+html body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-image: url("Octopusg.png");
+    background-repeat: no-repeat;
+    background-color: rgb(179, 174, 174);
+ 
+}
+nav ul{
+    background-color:rgb(64,64,64);
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    color: yellow;
+}
+nav li{
+    padding: 18px;
+    font-size: 1.2em;
+    display: inline-block;
+    padding-left: 10px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+nav a:hover{
+    color: rgb(255,215,0);
+    transition: .5s;
+}
+
+header{
+    width: 38%;
+    text-transform: uppercase;
+    border: 2px solid gold;
+    color: gold;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+P{
+color: black;
+padding-left: 1%;
+font-size: 125%;
+
+
+} 
+#text {
+    display: grid;
+
+    grid-template-columns: 7% 40% 6% 40% 7%;
+    
+
+
+}
+
+.navfooter{
+    display: flex;
+    max-width: 100%;
+    background-color:rgb(64,64,64) ;
+    justify-content: center;
+    border-bottom: 1px solid gold;
+}
+footer span{
+display: flex;
+max-width: 100%;
+background-color: rgb(32,32,32) ;
+color: white;
+text-transform: uppercase;
+justify-content: center;
+padding: 2%;
+font-size: 1em;
+}
+nav{
+    color: rgb(255,215,0);
+    transition: .5s;
+}
+
+ul{
+
+}
+
+h2{
+    border-bottom: 4px solid red;
+    padding-left: 5%;
+    max-width: 20cm;
+    margin-bottom: 1px;
+    border-spacing: 1px;
+
+}
+
+h3{
+    margin-top: 1px;
+    padding-left: 44%;
+}
