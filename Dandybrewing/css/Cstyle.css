@@ -32,7 +32,7 @@ header section{
     height: 400px;
 }
 header section h1{
-width: 34%;
+width: 40%;
 border: 2px solid rgb(255, 217, 0);
 display: flex;
 justify-content: right;
@@ -50,7 +50,7 @@ header section h3{
     flex-direction: row;
     justify-content: right;
     margin-left: 5%;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     text-transform: uppercase;
 }
@@ -125,7 +125,7 @@ border-bottom: 2px solid snow;
     display: flex;
     color: white;
     border: 2px solid white;
-    width: 32%;
+    width: 40%;
     margin-top: 7%;
     margin-left: 2%;
     font-size: 2.7em;
